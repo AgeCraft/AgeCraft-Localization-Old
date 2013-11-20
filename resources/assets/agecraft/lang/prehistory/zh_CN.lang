@@ -4,6 +4,7 @@ tile.campfire.name=营火
 tile.rock.name=岩石
 tile.pot.name=壶
 tile.bed.name=床
+tile.barrel.name=桶
 
 item.fakeStone.name=岩石
 item.rock.name=岩石
