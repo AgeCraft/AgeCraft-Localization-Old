@@ -15,8 +15,35 @@ agecraft.version.general_error=远程版本文件链接失败;重试中...
 agecraft.version.final_error=在三次不成功的尝试后版本检查中止.
 agecraft.version.mc_version_not_found=对比远程版本文件,未发现@MOD_NAME@对应@MINECRAFT_VERSION@的版本.
 
+gui.done=完成
+gui.cancel=取消
+gui.open=打开
+gui.close=关闭
+gui.less=少于
+gui.more=多于
+gui.list=列表
+gui.prev=上一个
+gui.next=下一个
+gui.prev.short=前
+gui.next.short=后
+gui.prev.sign=<
+gui.next.sign=>
+gui.up=上
+gui.down=下
+gui.up.sign=/\
+gui.down.sign=\/
+gui.buy=购买
+gui.sell=出售
+gui.add=添加
+gui.remove=移除
+gui.pay=支付
+gui.choose=选择
+gui.addToCart=添加到购物车
+
+container.trade=交易
 container.crafting=合成
 container.workbench=工作台
+container.armor=装备
 
 trees.wood=木头
 trees.leaves=树叶
