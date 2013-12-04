@@ -39,15 +39,20 @@ gui.remove=Remove
 gui.pay=Pay
 gui.choose=Choose
 gui.addToCart=Add to Cart
+gui.showdetails=Press shift for more details
 
 container.trade=Trade
 container.crafting=Crafting
 container.workbench=Workbench
 container.armor=Armor
 
+recipe.workbench.shaped=Shaped Workbench Recipe
+recipe.workbench.shapeless=Shapeless Workbench Recipe
+
 trees.wood=Wood
 trees.leaves=Leaves
 trees.log=Log
+trees.logs=Logs
 trees.sapling=Sapling
 trees.planks=Planks
 trees.wall=Wall
@@ -71,6 +76,10 @@ trees.jungle=Jungle
 
 metals.ore=Ore
 metals.block=Block
+metals.bricks=Bricks
+metals.smallBricks=Small Bricks
+metals.blockCircle=Circle Block
+metals.pillar=Pillar
 metals.fence=Fence
 metals.fenceGate=Fence Gate
 metals.door.standard=Door
