@@ -39,15 +39,20 @@ gui.remove=移除
 gui.pay=支付
 gui.choose=选择
 gui.addToCart=添加到购物车
+gui.showdetails=按下潜行键(shift)以查看更多详细信息
 
 container.trade=交易
 container.crafting=合成
 container.workbench=工作台
 container.armor=装备
 
+recipe.workbench.shaped=工作台有序合成
+recipe.workbench.shapeless=工作台无序合成
+
 trees.wood=木头
 trees.leaves=树叶
 trees.log=原木
+trees.logs=原木
 trees.sapling=树苗
 trees.planks=木板
 trees.wall=墙壁
@@ -71,6 +76,10 @@ trees.jungle=丛林树
 
 metals.ore=矿石
 metals.block=方块
+metals.bricks=砖块
+metals.smallBricks=小型砖块
+metals.blockCircle=环形砖块
+metals.pillar=立柱
 metals.fence=栅栏
 metals.fenceGate=栅栏门
 metals.door.standard=门
@@ -143,8 +152,8 @@ tools.type.pitchfork=干草叉
 tools.type.hammer=锤子
 tools.type.chisel=凿子
 tools.type.handsaw=手锯
-tools.type.saw=Saw锯子
-tools.type.bow=Bow弓
+tools.type.saw=锯子
+tools.type.bow=弓
 tools.type.crossbow=十字弩
 tools.type.arrow=箭矢
 tools.type.bolt=弩弹
