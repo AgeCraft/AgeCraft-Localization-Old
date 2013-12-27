@@ -34,13 +34,16 @@ gui.choose=Choose
 gui.addToCart=Add to Cart
 gui.showdetails=Press shift for more details
 
+container.inventory=Inventory
+container.armor=Armor
 container.trade=Trade
 container.crafting=Crafting
 container.workbench=Workbench
-container.armor=Armor
+container.smeltery=Smeltery
 
 recipe.workbench.shaped=Shaped Workbench Recipe
 recipe.workbench.shapeless=Shapeless Workbench Recipe
+recipe.smeltery=Smeltery Recipe
 
 stone.stone=Stone
 stone.stoneCracked=Cracked Stone
@@ -75,10 +78,30 @@ trees.stick=Stick
 trees.dust=Dust
 trees.bucket=Bucket
 
-trees.oak=Oak
+trees.acacia=Acacia
+trees.alder=Alder
+trees.beech=Beech
 trees.birch=Birch
-trees.spruce=Spruce
+trees.buckeye=Buckeye
+trees.cherryBlossom=Cherry Blossom
+trees.coniferous=Coniferous
+trees.darkOak=Dark Oak
+trees.dogwood=Dogwood
+trees.elm=Elm
+trees.eucalyptus=Eucalyptus
+trees.fir=Fir
+trees.filbert=Filbert
 trees.jungle=Jungle
+trees.maple=Maple
+trees.oak=Oak
+trees.palm=Palm
+trees.pine=Pine
+trees.poplar=Poplar
+trees.spruce=Spruce
+trees.tupelo=Tupelo
+trees.willow=Willow
+trees.yew=Yew
+trees.yellow=Yellow
 
 metals.ore=Ore
 metals.block=Block
@@ -177,6 +200,7 @@ armor.type.leggings=Leggings
 armor.type.boots=Boots
 
 crafting.workbench=Workbench
+crafting.smelteryFurnace=Smeltery Furnace
 
 fluid.tile.water=Water
 fluid.tile.lava=Lava
