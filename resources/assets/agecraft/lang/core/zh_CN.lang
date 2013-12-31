@@ -37,10 +37,11 @@ gui.showdetails=按下潜行键(shift)以查看更多详细信息
 container.trade=交易
 container.crafting=合成
 container.workbench=工作台
-container.armor=装备
+container.smeltery=冶炼厂
 
 recipe.workbench.shaped=工作台有序合成
 recipe.workbench.shapeless=工作台无序合成
+recipe.smeltery=冶炼厂合成
 
 stone.stone=石头
 stone.stoneCracked=裂纹石头
@@ -75,10 +76,30 @@ trees.stick=木棍
 trees.dust=粉末
 trees.bucket=桶
 
-trees.oak=橡木
+trees.acacia=刺槐
+trees.alder=赤杨
+trees.beech=毛榉
 trees.birch=白桦
-trees.spruce=云杉
+trees.buckeye=七叶
+trees.cherryBlossom=樱花
+trees.coniferous=针叶
+trees.darkOak=黑橡
+trees.dogwood=山茱萸
+trees.elm=榆树
+trees.eucalyptus=桉树
+trees.fir=冷杉
+trees.filbert=榛子
 trees.jungle=丛林树
+trees.maple=枫树
+trees.oak=橡树
+trees.palm=棕榈
+trees.pine=松树
+trees.poplar=杨树
+trees.spruce=云杉
+trees.tupelo=蓝果树
+trees.willow=柳树
+trees.yew=紫杉
+trees.yellow=黄叶树
 
 metals.ore=矿石
 metals.block=方块
@@ -177,6 +198,7 @@ armor.type.leggings=护腿
 armor.type.boots=靴子
 
 crafting.workbench=工作台
+crafting.smelteryFurnace=冶炼炉
 
 fluid.tile.water=水
 fluid.tile.lava=岩浆
