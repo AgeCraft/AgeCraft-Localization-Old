@@ -1,0 +1,56 @@
+clothing.types=Tipos
+clothing.categories=Categorías
+clothing.pieces=Piezas
+
+clothing.type.skin=Skin
+clothing.type.hair=Pelo
+clothing.type.eyes=Ojos
+clothing.type.mouth=Boca
+clothing.type.facialHair=Flequillo
+clothing.type.hat=Sombrero
+clothing.type.shirt=Camiseta
+clothing.type.pants=Pantalones
+clothing.type.boots=Botas
+
+
+clothing.category.general=General
+clothing.category.special=Especial
+clothing.category.prehistory=Prehistoria
+
+
+clothing.general.skin.steve=Skin de Steve
+
+clothing.general.hair.steve=Pelo de Steve
+
+clothing.general.mouth.steve=Boca de Steve
+
+clothing.general.eyes.steve=Ojos de Steve
+clothing.general.eyes.happy=Ojos Felices
+clothing.general.eyes.large=Ojos Grandes
+clothing.general.eyes.scared=Ojos Asustados
+
+clothing.general.facialHair.steve=Flequillo de Steve
+
+clothing.general.hat.steve=Sombrero de Steve
+clothing.general.hat.smooth=Sombrero Suave
+clothing.general.hat.headband=Headband
+
+clothing.general.shirt.steve=Camiseta de Steve
+clothing.general.shirt.smooth=Chaqueta Suave
+clothing.general.shirt.gradient=Camiseta Gradiente
+clothing.general.shirt.sleeveless=Camiseta sin mangas
+
+clothing.general.pants.steve=Pantalones de Steve
+clothing.general.pants.smooth=Pantalones Suaves
+
+clothing.general.boots.steve=Botas de Steve
+clothing.general.boots.smooth=Zapatos Suaves
+
+
+clothing.special.boots.djprincecap=Zapatos de DJPrinceCap
+clothing.special.shirt.djprincecap=Camiseta de DJPrinceCap
+clothing.special.pants.djprincecap=Pantalones de DJPrinceCap
+clothing.special.hat.djprincecap=Gafas de DJPrinceCap
+
+
+clothing.prehistory.hat.bone=Hueso

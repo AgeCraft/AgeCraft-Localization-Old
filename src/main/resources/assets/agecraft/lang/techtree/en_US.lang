@@ -1,0 +1,21 @@
+techtree.name=Technology Tree
+techtree.locked=Unkown Technology
+techtree.unlocked=Discovered Technology
+techtree.popup=Technology Discovered!
+
+techtree.prehistory.name=Prehistory
+
+techtree.prehistory.rock.name=Rock
+techtree.prehistory.rock.description=Rocks can be used to create tools
+techtree.prehistory.rockTool.name=Rock Tool
+techtree.prehistory.rockTool.description=Rock tools can be used to chop down tree or kill animals
+techtree.prehistory.campfire.name=Campfire
+techtree.prehistory.campfire.description=You can use a campfire to cook meat
+techtree.prehistory.meat.name=Meat
+techtree.prehistory.meat.description=Cooked meat is a good food source
+techtree.prehistory.workbench.name=Workbench
+techtree.prehistory.workbench.description=You can craft wooden items on a workbench
+techtree.prehistory.cobblestone.name=Cobblestone
+techtree.prehistory.cobblestone.description=Cobblestone is a decent building and tool material
+techtree.prehistory.tool.name=Tool
+techtree.prehistory.tool.description=Tools can break blocks, kill animals and much more useful things!

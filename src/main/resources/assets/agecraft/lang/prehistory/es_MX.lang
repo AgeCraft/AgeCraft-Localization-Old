@@ -1,0 +1,14 @@
+tile.campfire.name=Hoguera
+tile.rock.name=Roca
+tile.pot.name=Olla
+tile.bed.name=Cama
+tile.barrel.name=Barril
+tile.box.name=Caja de Madera
+
+item.fakeStone.name=Roca
+item.rock.name=Piedra
+item.rockTool.name=Herramienta de Piedra
+item.rockTanningTool.name=Herramienta de Curtir de Piedra
+item.rockPickaxeHead.name=Cabeza de Pico de Piedra
+item.rockPickaxe.name=Pico de Piedra
+item.flintAndRock.name=Pedernal y Piedra

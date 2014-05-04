@@ -1,12 +1,38 @@
 itemGroup.AgeCraft=AgeCraft
 itemGroup.Stone=Stone
+itemGroup.Building=Building Blocks
 itemGroup.Metals=Metals
 itemGroup.Wood=Wood
 itemGroup.Tools=Tools
 itemGroup.Armor=Armor
+itemGroup.Crafting=Crafting
+itemGroup.Food=Food
+itemGroup.Farming=Farming
 
 itemGroup.Prehistory=Prehistory
 itemGroup.Agriculture=Agriculture
+
+age.name=Age
+age.enter=Entering the %s Age
+age.leave=Leaving the %s Age
+
+commands.techtree.usage=/techtree <pages|components|unlock|lock>
+commands.techtree.pages=Pages:
+commands.techtree.components=Components:
+commands.techtree.components.usage=/techtree components <page_name>
+commands.techtree.unlock.usage=/techtree unlock <page_name> <component_name> [player]
+commands.techtree.lock.usage=/techtree lock <page_name> <component_name> [player]
+commands.techtree.unknownPage=Unknown technology tree page '%s'. Use /techtree pages for a list of pages
+commands.techtree.unknownComponent=Unknown technology tree component '%s'. Use /techtree components <page_name> for a list of pages
+commands.techtree.unlock.success.all=Successfully unlocked all components of %s for %s
+commands.techtree.unlock.success.one=Successfully unlocked component %s for %s
+commands.techtree.lock.success.all=Successfully locked all components 0f %s for %s
+commands.techtree.lock.success.one=Successfully locked component %s for %s
+commands.preview.usage=/preview <list|topic_name>
+commands.preview.topics=Topics:
+commands.preview.success=Successfully gave preview %s to %s
+commands.preview.unknown=Unknown preview topic '%s'. Use /preview list for a list of topics
+commands.preview.completeTechTree=You need to complete the Tech Tree before being able to use this command
 
 gui.done=Done
 gui.cancel=Cancel
@@ -34,29 +60,74 @@ gui.choose=Choose
 gui.addToCart=Add to Cart
 gui.showdetails=Press shift for more details
 
+color.white=White
+color.orange=Orange
+color.magenta=Magenta
+color.lightBlue=Light Blue
+color.yellow=Yellow
+color.lime=Lime
+color.pink=Pink
+color.gray=Gray
+color.lightGray=Light Gray
+color.cyan=Cyan
+color.purple=Purple
+color.blue=Blue
+color.brown=Brown
+color.green=Green
+color.red=Red
+color.black=Black
+
+container.result=Result
 container.inventory=Inventory
 container.armor=Armor
 container.trade=Trade
 container.crafting=Crafting
 container.workbench=Workbench
 container.smeltery=Smeltery
+container.anvil=Anvil
 
 recipe.workbench.shaped=Shaped Workbench Recipe
 recipe.workbench.shapeless=Shapeless Workbench Recipe
 recipe.smeltery=Smeltery Recipe
+recipe.anvil=Anvil Recipe
 
-stone.stone=Stone
-stone.stoneCracked=Cracked Stone
-stone.stoneMossy=Mossy Stone
-stone.stoneBrick.normal=Stone Brick
-stone.stoneBrick.cracked=Cracked Stone Brick
-stone.stoneBrick.mossy=Mossy Stone Brick
-stone.stoneBrick.small=Small Stone Brick
-stone.stoneBrick.circle=Circular Stone Brick
-stone.stoneBrick.creeper=Stone Brick Creeper
-stone.stoneBrick.chiseled=Chiseled Stone Brick
-stone.stoneBrick.smooth=Smooth Stone Brick
-stone.stoneBrick.pillar=Stone Brick Pillar
+stone.types.stone=Stone
+stone.types.granite=Granite
+stone.types.diorite=Diorite
+stone.types.andesite=Andesite
+
+stone.layeredStone=Stone
+stone.stone=%s
+stone.stoneCracked=Cracked %s
+stone.stoneMossy=Mossy %s
+stone.stoneBrick.normal=%s Brick
+stone.stoneBrick.cracked=Cracked %s Brick
+stone.stoneBrick.mossy=Mossy %s Brick
+stone.stoneBrick.small=Small %s Brick
+stone.stoneBrick.circle=Circular %s Brick
+stone.stoneBrick.creeper=%s Brick Creeper
+stone.stoneBrick.chiseled=Chiseled %s Brick
+stone.stoneBrick.smooth=Smooth %s Brick
+stone.stoneBrick.pillar=%s Brick Pillar
+stone.marble=Marble
+stone.polishedMarble=Polished Marble
+
+building.grass=Grass
+building.dirt=Dirt
+building.infertileDirt=Infertile Dirt
+building.podzol=Podzol
+building.sand=Sand
+building.redSand=Red Sand
+building.gravel=Gravel
+building.clay=Clay
+building.hardenedClay=Hardened Clay
+building.stainedHardenedClay=Stained Clay
+building.brickBlock=Brick
+building.glass=Glass
+building.clearGlass=Clear Glass
+building.stainedGlass=Stained Glass
+building.clayBall=Clay
+building.brick=Brick
 
 trees.wood=Wood
 trees.leaves=Leaves
@@ -76,7 +147,7 @@ trees.trapdoor.solid=Solid Trapdoor
 trees.ladder=Ladder
 trees.stick=Stick
 trees.dust=Dust
-trees.bucket=Bucket
+trees.bucket=Wood Bucket
 
 trees.acacia=Acacia
 trees.alder=Alder
@@ -118,6 +189,7 @@ metals.door.full=Full Cut Door
 metals.trapdoor.standard=Trapdoor
 metals.trapdoor.solid=Solid Trapdoor
 metals.ladder=Ladder
+metals.fluid=Fluid
 metals.ingot=Ingot
 metals.gem=Gem
 metals.stick=Stick
@@ -163,6 +235,7 @@ metals.turquoise=Turquoise
 metals.redstone=Redstone
 metals.salt=Salt
 metals.sulphur=Sulphur
+metals.charcoal=Charcoal
 
 tools.type.default=Tool
 tools.type.sword=Sword
@@ -201,6 +274,35 @@ armor.type.boots=Boots
 
 crafting.workbench=Workbench
 crafting.smelteryFurnace=Smeltery Furnace
+crafting.smelteryHatch=Smeltery Hatch
+crafting.smelteryDrain=Smeltery Drain
+crafting.smelteryFaucet=Smeltery Faucet
+crafting.smelteryTank=Smeltery Tank
+crafting.smelteryCastingTable=Casting Table
+crafting.anvil=Anvil
+crafting.anvil.slightlyDamaged=Slightly Damaged
+crafting.anvil.veryDamaged=Very Damaged
+
+food.raw=Raw
+food.cooked=Cooked
+food.baked=Baked
+food.burned=Burned
+
+food.fruit.appleRed=Red Apple
+food.fruit.appleGreen=Green Apple
+
+food.vegetables.tomato=Tomato
+food.vegetables.potato=Potato
+food.vegetables.carrot=Carrot
+
+food.meat.pork=Pork
+food.meat.beef=Beef
+food.meat.chicken=Chicken
+
+food.fish.cod=Cod
+food.fish.salmon=Salmon
+food.fish.clownfish=Clownfish
+food.fish.pufferfish=Pufferfish
 
 fluid.tile.water=Water
 fluid.tile.lava=Lava

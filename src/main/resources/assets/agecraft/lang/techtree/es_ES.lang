@@ -1,0 +1,21 @@
+techtree.name=Árbol de Tecnologías
+techtree.locked=Tecnología Desconocida
+techtree.unlocked=Tecnología Desbloqueada
+techtree.popup=Tecnología Descubierta!
+
+techtree.prehistory.name=Prehistoria
+
+techtree.prehistory.rock.name=Piedra
+techtree.prehistory.rock.description=Las piedras pueden ser usadas para crear herramientas
+techtree.prehistory.rockTool.name=Herramienta de piedra
+techtree.prehistory.rockTool.description=Las Herramientas de piedra pueden ser utilizadas para tirar árboles o matar animales
+techtree.prehistory.campfire.name=Hoguera
+techtree.prehistory.campfire.description=Puedes usar una hoguera para cocinar carne
+techtree.prehistory.meat.name=Carne
+techtree.prehistory.meat.description=La carne cocinada es una buena fuente de alimento
+techtree.prehistory.workbench.name=Mesa de trabajo
+techtree.prehistory.workbench.description=Puedes usar la mesa de trabajo para craftear herramientas de madera
+techtree.prehistory.cobblestone.name=Roca
+techtree.prehistory.cobblestone.description=La roca es un material decente para construir y para fabricar herramientas
+techtree.prehistory.tool.name=Herramienta
+techtree.prehistory.tool.description=Las herramienta pueden romper bloques, matar animales y muchas más cosas útiles!
